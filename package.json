@@ -1,0 +1,22 @@
+{
+  "name": "producer-consumer-system",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ss-cs/producer-consumer-system.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ss-cs/producer-consumer-system/issues"
+  },
+  "homepage": "https://github.com/ss-cs/producer-consumer-system#readme",
+  "description": "",
+  "dependencies": {
+    "amqplib": "^0.10.7"
+  }
+}
