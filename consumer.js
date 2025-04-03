@@ -22,7 +22,7 @@ async function receiveMessages() {
         }, {noAck : false})
     }
     catch(e){
-        console.log(e)
+        console.log("error ",e)
     }
 }
 receiveMessages()
