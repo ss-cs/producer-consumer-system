@@ -1,3 +1,9 @@
+/**
+ * RabbitMQ Producer
+ * This script creates a connection to RabbitMQ and sends 5 messages to a durable queue.
+ * Each message is made persistent to ensure it's not lost even if RabbitMQ restarts.
+ * The producer creates a 'task_queue' and sends numbered tasks as messages.
+ */
 const amqp = require("amqplib")
 
 async function sendMessages() {
